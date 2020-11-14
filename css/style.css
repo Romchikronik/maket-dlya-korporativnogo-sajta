@@ -39,7 +39,7 @@ header{
 }
 
 .navbar-brand{
-    margin: 0 50px 0 0;
+    margin: 0 62px 0 0;
     padding: 0;
     color: #fff !important;
     font-size: 24px;
@@ -54,7 +54,7 @@ header{
   color: #fff !important;
   font-size: 18px;
   letter-spacing: 2px;
-  margin: 0 20px;
+  margin: 0 29px;
   transition: 0.6s;
 }
 
@@ -113,9 +113,13 @@ opacity: 1;
 .header-slider-content{
     max-width: 538px;
     margin: 0 auto;
+    height: 226px;
+    position: relative;
+}
+
+.header-slide-wrap{
     border: 1px solid rgba(233, 227, 227, 0.2);
     padding: 48px 35px 56px;
-    position: relative;
 }
 
 h1{
@@ -144,9 +148,9 @@ h1{
     color: #fff;
     position: absolute;
     bottom: 0;
-    transform: translateY(50%) translateX(-50%);
+    transform: translateX(-50%);
     outline: none;
-  
+    z-index: 3;
 }
 
 .header-slider .slick-arrow{
@@ -159,10 +163,11 @@ position: absolute;
 top: 50%;
 transform: translateY(-50%);
 outline: none;
+z-index: 54;
 }
 
 .header-slider .prev-arrow{
-    left: 0;
+    left: 0; 
 }
 
 .header-slider .next-arrow{

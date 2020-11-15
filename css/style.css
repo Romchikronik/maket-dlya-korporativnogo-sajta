@@ -263,7 +263,7 @@ z-index: 54;
 }
 
 .header-title-line .thin-line{
-    width: 400px;
+   width: 320px;
     height: 1px;
     background: #fff;
 }
@@ -350,7 +350,7 @@ right: 0;
 }
 
 .feedback-title .thin-line{
-    width: 380px;
+    width: 300px;
 }
 
 .feedback{

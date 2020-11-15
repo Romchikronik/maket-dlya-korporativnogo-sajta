@@ -1,0 +1,227 @@
+@media (max-width: 1199.98px){
+    .header-title-line .thin-line{
+        width: 220px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+       margin: 0 15px; 
+    }
+    .about-content p {
+        font-size: 14px;
+        line-height: 22.92px;
+        margin-bottom: 10px;
+    }
+    .about-content a{
+        margin-top: 10px;
+    }
+    .about-content {
+        padding: 40px 50px 0 44px;
+    }
+    .feedback .left-arrow{
+        left: 100px;
+    }
+    .feedback .right-arrow{
+       right: 100px;
+    }
+    .quote{
+        flex-direction: column;
+    }
+    .quote-text{
+        margin: 0 0 25px 0;
+        text-align: center;
+    }
+}
+@media (max-width: 991.98px){
+    .header-title-line .thin-line{
+        width: 200px;
+    }
+    .header-title-line .bold-line{
+        width: 40px;
+    }
+    .header-title h2 {
+        font-size: 30px;
+        line-height: 20px;
+    }
+    .feedback-text {
+        margin: 0 25px !important;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        margin: 0; 
+     }
+     .navbar-social-links {
+       margin: 10px 0 0;
+    }
+    .navbar-light .navbar-toggler{
+        outline: none !important;
+    }
+    .about .row{
+        justify-content: center;
+    }
+    .about-content {
+        padding: 40px 50px 40px 44px;
+        text-align: center;
+    }
+    .web-slider h3{
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .web-slider p {
+        font-size: 12px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+    .web-slider .slick-slide img {
+        margin: 0px auto 45px;
+    }
+    .web-slider .slick-slide {
+        padding: 120px 15px;
+    }
+    .footer-links{
+        font-size: 15px;
+    }
+}
+@media (max-width: 767.98px){
+    .header-title h2 {
+        font-size: 25px;
+        line-height: 18px;
+    }
+    .feedback-text {
+        margin: 0 15px !important;
+    }
+    .header-title-line .thin-line{
+        width: 135px;
+    } 
+    h1 {
+        font-size: 43px;
+        line-height: 37.96px;
+    }
+    .quote input[type="submit"]{
+        vertical-align: top;
+    }
+    footer{
+        text-align: center;
+    }
+    footer .row{
+        justify-content: center;
+    }
+    footer .footer-content{
+        padding: 0;
+    }
+    footer .col-sm-7{
+        margin-top: 30px;
+    }
+    footer input[type="submit"]{
+        vertical-align: top;
+    }
+    .footer-social-links{
+     justify-content: center;
+    }
+}
+@media (max-width: 575.98px){
+    .header-title-line .thin-line{
+        display: none;
+    }
+    .quote-text {
+        margin-right: 0;
+    }
+    h1 {
+        font-size: 22px;
+        line-height: 17.96px;
+        margin-bottom: 15px;
+    }
+    .header-slider p {
+        opacity: 1;
+    }   
+    .navbar-social-links a{
+        opacity: 1;
+    }  
+    .header-slide-wrap {
+        padding: 36px 20px 42px;
+    }
+    .header-slider a {
+        width: 100px;
+        height: 30px;
+        font-size: 11px;
+        bottom: 46px;
+    }
+    header{
+        padding-bottom: 40px;
+    }
+    .nav-line{
+        margin-bottom: 70px;
+    }
+    .inside-title {
+        font-size: 22px;
+        line-height: 18.11px;
+    }
+    .about-line{
+        margin-bottom: 20px;
+    }
+    .about-content p {
+        font-size: 11px;
+        line-height: 18.92px;
+    }
+    .about-content a{
+        font-size: 10px;
+        width: 150px;
+        height: 30px; 
+    }
+    .web-slider .slick-slide {
+        padding: 100px 15px;
+    }
+    .slide-img img{
+        margin: 25px auto 0 !important;
+    }
+    .img-content{
+       left: 50%;
+      transform: translateX(-50%);
+    }
+    .clients {
+        padding: 16px 0 50px;
+    }
+    .quote-text h3 {
+        font-size: 23px;
+        line-height: 23.3px;
+        margin-bottom: 20px;
+    }
+    .quote-text p {
+        font-size: 10px;
+        line-height: 17.87px;
+        padding: 0 10px;
+    }
+    .quote form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-input{
+        margin: 7px 0 !important;
+        border-radius: 0 !important;
+    }
+    .quote input[type="submit"] {
+    margin: 7px 0 0 !important;
+    border-radius: 0 !important;
+    width: 205px;
+    }
+    .quote input[type="submit"]:hover{
+        border: 1px solid #fff !important;
+    }
+    .quote{
+        padding: 27px 0 50px;
+    }
+    .footer-links {
+        font-size: 13px;
+        line-height: 27px;
+    }
+    footer h4{
+        margin-bottom: 15px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    footer .col-6{
+        margin-bottom: 30px;
+    }
+    footer .col-sm-7{
+        margin-top: 0;
+    }
+}

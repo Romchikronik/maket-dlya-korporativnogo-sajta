@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
     
@@ -80,10 +81,10 @@
     
     <section class="about">
       <div class="row">
-        <div class="col-xl-6">
+        <div class="col-xl-6 col-lg-6 col-md-8 col-sm-9">
           <img src="images/about-icon.jpg" alt="" class="w-100">
         </div>
-        <div class="col-xl-6">
+        <div class="col-xl-6 col-lg-6 col-md-8 col-sm-9">
           <div class="about-content">
             <h2 class="inside-title"><span>A LIT</span>TLE ABOUT US</h2>
             <div class="about-line"></div>
@@ -160,7 +161,7 @@
     
     <section class="feedback">
       <div class="row">
-        <div class="col-xl-5">
+        <div class="col-xl-5 col-lg-4 col-md-5 col-sm-7">
           <div class="feedback-info">
             <p class="pleasure">It was always a pleasure doing bussiness with them. I love the quality of work.</p>
             <div class="feedback-line"></div>
@@ -200,7 +201,7 @@
         </div>
        
         
-        <div class="col-xl-7">
+        <div class="col-xl-7 col-lg-8 col-md-7 col-sm-5">
           <div class="feedback-slider slider-nav">
             <div class="feedback-slide">
               <div class="slide-img">
@@ -371,7 +372,7 @@
     <footer>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-xl-2">
+          <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
             <h4><span>Pro</span>duct</h4>
             <ul class="footer-links">
               <li><a href="">Cost & Governance</a></li>
@@ -380,7 +381,7 @@
               <li><a href="">Pricing & plans</a></li>
             </ul>
           </div>
-          <div class="col-xl-2">
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6">
             <h4><span>LEA</span>RN</h4>
             <ul class="footer-links">
               <li><a href="">Articles</a></li>
@@ -389,7 +390,7 @@
               <li><a href="">FAQs</a></li>
             </ul>
           </div>
-          <div class="col-xl-2">
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6">
             <h4><span>COM</span>PANY</h4>
             <ul class="footer-links">
               <li><a href="">About</a></li>
@@ -398,7 +399,7 @@
               <li><a href="">Contact</a></li>
             </ul>
           </div>
-          <div class="col-xl-4 offset-xl-2">
+          <div class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-5 col-sm-7 ">
             <div class="footer-content">
               <form action="">
                 <input type="email" placeholder="Your email">
@@ -448,7 +449,21 @@
     $(document).ready(function () {
       $('.header-slider').slick({
         prevArrow: '<button class="slick-arrow prev-arrow"><i class="fa fa-angle-left"></i></button>',
-        nextArrow: '<button class="slick-arrow next-arrow"><i class="fa fa-angle-right"></i></button>'
+        nextArrow: '<button class="slick-arrow next-arrow"><i class="fa fa-angle-right"></i></button>',
+        responsive: [
+    {
+      breakpoint: 767.98,
+      settings: {
+        arrows: false
+      }
+    },
+    {
+      breakpoint: 575.98,
+      settings: {
+        arrows: false
+      }
+    }
+  ]
       });
       $('.web-slider').slick({
         prevArrow: '<button class="web-slick-arrow web-prev-arrow"><i class="fa fa-angle-left"></i></button>',
@@ -459,18 +474,18 @@
   slidesToShow: 3,
   responsive: [
     {
-      breakpoint: 768,
+      breakpoint: 767.98,
       settings: {
-        arrows: false,
+        arrows: true,
         centerMode: true,
         centerPadding: '0',
-        slidesToShow: 3
+        slidesToShow: 2
       }
     },
     {
-      breakpoint: 480,
+      breakpoint: 575.98,
       settings: {
-        arrows: false,
+        arrows: true,
         centerMode: true,
         centerPadding: '0',
         slidesToShow: 1
@@ -495,7 +510,27 @@ $('.slider-nav').slick({
   centerMode: true,
   centerPadding: '0',
   focusOnSelect: true,
-  arrows: false
+  arrows: false,
+  responsive: [
+    {
+      breakpoint: 991.98,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '0',
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 767.98,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '0',
+        slidesToShow: 1
+      }
+    }
+  ]
 });
     });
   </script> 
